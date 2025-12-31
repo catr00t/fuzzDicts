@@ -4,8 +4,6 @@
 <style>@keyframes x{}</style><a style="animation-name:x" onanimationend="alert(4)"></a>
 <style>@keyframes slidein {}</style><a style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(5)"></a>
 <style>@keyframes x{}</style><a style="animation-name:x" onanimationstart="alert(6)"></a>
-<a id=x tabindex=1 onbeforeactivate=alert(7)></a>
-<a id=x tabindex=1 onbeforedeactivate=alert(8)></a><input autofocus>
 <body onbeforeprint=alert(9)>
 <body onbeforeunload="location='javascript:alert(10)'">
 <svg><animate onbegin=alert(11) attributeName=x dur=1s>
